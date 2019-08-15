@@ -3,6 +3,10 @@
     src: url(fonts/rd.ttf) format("truetype");
 }
 
+* {
+	font-family: "RD";
+}
+
 img {
     width: 256px;
 }
