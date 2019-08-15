@@ -10,3 +10,7 @@
 img {
     width: 256px;
 }
+
+body {
+    background-image: linear-gradient(white, lightsteelblue)
+}
