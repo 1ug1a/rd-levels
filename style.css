@@ -3,6 +3,6 @@
     src: url(fonts/rd.ttf) format("truetype");
 }
 
-.img {
+img {
     width: 256px;
 }
