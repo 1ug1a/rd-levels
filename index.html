@@ -4,7 +4,7 @@
 <head>
     <title>lugi's rd levels</title>
     <link rel="stylesheet" href="style.css">
-	<script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
 </head>
 
 <body>
@@ -49,13 +49,23 @@
             </td>
             <td>
                 <a href = "https://cdn.discordapp.com/attachments/611380148431749151/611423097630752778/Tsunku_-_Karate_Man.rdzip">
-                    <p id = "1">https://cdn.discordapp.com/attachments/611380148431749151/611423097630752778/Tsunku_-_Karate_Man.rdzip</p>
+                    <p>Download</p>
                 </a>
-                <button onclick="copyToClipboard('#1')">Copy to Clipboard</button>
+                <button data-clipboard-text="1">Copy to Clipboard</button>
             </td>
             
         </tr>
     </table>
+    <script>
+        var btns = document.querySelectorAll('button');
+        var clipboard = new ClipboardJS(btns);
+        clipboard.on('success', function(e) {
+            console.log(e);
+        });
+        clipboard.on('error', function(e) {
+            console.log(e);
+        });
+        </script>
 </body>
 
 </html>
