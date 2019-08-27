@@ -3,68 +3,29 @@
     src: url(fonts/rd.ttf) format("truetype");
 }
 
-*, h1 {
+.btn {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif !important;
+}
+
+* {
     font-family: "RD";
-    font-weight: normal;
-    color: #000;
 }
 
-a {
-    color: #00f;
-    text-decoration: underline;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-img {
-    width: 256px;
-}
-
-table, th, td {
-    background: #00000010;
-    border: 2px hidden;
-    border-collapse: collapse;
-    padding: 10px 25px;
-    width: auto;
-}
-
-table {
-    border-radius: 10px;
-}
-
-th {
+.h5, h5 {
     font-size: 24px;
 }
 
-p {
-    margin-bottom: 10px;
+.card {
+    border: .05rem solid #25211B;
 }
 
-.images {
-    padding: 0px 0px 8px 16px;
-}
-
-img {
-    border-radius: 10px;
-}
-
-.download {
-    text-align: center;
-}
-
-.asdf {
-    color: #00f;
-}
-
-.asdfg {
-    font-size: 24px;
+.bg-dark {
+    background: hsla(217, 16%, 22%)!important;
 }
 
 body {
-    margin: 50px 150px;
     background-color: transparent;
+    margin-top: 20px;
 }
 
 html {
